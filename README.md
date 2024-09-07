@@ -1,14 +1,10 @@
-# Fatec Jahu Workshop JS
-
-Corrija o código a abaixo.
-
-```js
-const x, y = 5
-x + 10
+const y = 5;
+let x = (x + 10);
+let r = 0;
 
 function somar () {
   r = x + y
+  return r
 }
 
 console.log(somar())
-```
